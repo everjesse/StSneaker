@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+.mens{font-family:Arial, Helvetica, sans-serif;margin:0 auto;margin-bottom:10px;
+width:990px; display:block;height:auto;}
+.checkout{width: 988px;border: 1px solid #ddd;}
+.order_title{height: 28px;
+background-color: #f7f7f7;
+padding-top: 7px;overflow: hidden;
+zoom: 1}
+h2{font-size:14px;
+font-weight: bold;}
+.order_title h2{font-family:"microsoft yahei";line-height:100px;background: url(../images/checkout-title.gif) no-repeat 10px 0;}
+.checkout_step{border-top: 1px solid #ddd;display:block;margin-bottom:15px;height:auto;}
+
+.step_title{height: 45px;
+padding: 0 20px;color:#000000;
+line-height: 45px;
+position: relative;
+font-weight:bold;}
+.hookbox{margin: 2px 5px 0 8px;}
+.step_content{padding:0 44px;}
+.label label{margin-left:10px;}
+.checkoutForm label{font-size:14px;}
+.return-edit{color: #005ea7;float: right;
+font-size: 12px;
+font-weight: 400;
+padding-right: 24px;}
+.fore1{width:479px;}
+.fore2{width:136px;}
+.fore3{width:130px;text-align:right;}
+.p-price{width: 110px;
+padding-right: 10px;
+text-align: right;}
+.review-thead td{height: 25px;
+border-left: 1px solid #fff;
+color: #666;
+line-height: 25px;
+text-align: center;
+background-color: #eeeeee;}
+.p-detail{float:left;}
+.p-img{width: 50px;
+height: 50px;
+margin-right: 5px;
+border: 1px solid #ddd;
+padding: 0;
+float: left;
+overflow: hidden;}
+.review_body{font-size:12px;}
+.order_summary_right{width:300px;float:right;font-size:12px;font-family:Arial, Helvetica, sans-serif;}
+.order_summary_right span{width: 180px;margin-right: 20px;
+float: left;
+text-align: right;}
+.checkout_but{margin:15px 0px 0px;
+background-color:#f5f5f5;
+position: relative;}
+.total{padding-right: 18px;
+float: right;
+line-height: 50px;
+font-size: 14px;
+font-weight: 700;
+margin-top:8px;}
+.checkout-submit b{position: absolute;
+left: 0;
+top: 0;
+width: 135px;
+height: 36px;
+background: url(http://misc.360buyimg.com/purchase/trade/skin/i/btn-submit.jpg) no-repeat;
+cursor: pointer;
+overflow: hidden;}
+.checkout-submit{ border-radius:5px;
+	background-color: #e00;
+position: relative;
+line-height: 36px;
+overflow: hidden;
+color: #fff;
+font-weight: bold;
+font-size: 16px;float:right;width: 135px;
+height: 36px;
+background: url(http://misc.360buyimg.com/purchase/trade/skin/i/btn-submit.jpg) no-repeat;margin-top:16px;}
+.step_content h3{font-weight:bold;}
+.consignee-form{font-size:14px;}
+.consignee-form em{color:#F00;margin-right:5px;}
+.consignee-form .list{margin:10px 0;}
+#addressSubmit{ border-radius:5px;
+	background-color: #e00;
+position: relative;
+line-height: 36px;
+overflow: hidden;
+color: #fff;
+font-weight: bold;
+font-size: 16px;float:right;width: 135px;
+height: 36px;
+margin-top:5px;}

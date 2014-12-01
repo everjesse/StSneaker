@@ -1,0 +1,24 @@
+2014-08-05 09:14:12 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 10:45:06 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 10:56:31 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 11:00:18 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 11:05:16 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 11:10:12 [26802623@qtp-4798195-2] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported
+2014-08-05 11:12:01 [26802623@qtp-4798195-2] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported
+2014-08-05 12:57:13 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 15:44:38 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 15:58:31 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 16:06:37 [4828940@qtp-18407750-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+2014-08-05 16:06:37 [4828940@qtp-18407750-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'is_default_address' cannot be null
+2014-08-05 16:19:36 [18216434@qtp-18407750-19] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+2014-08-05 16:19:36 [18216434@qtp-18407750-19] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'is_default_address' cannot be null
+2014-08-05 16:19:50 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 16:39:33 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 16:40:56 [18771485@qtp-22418487-6] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported
+2014-08-05 16:42:07 [18771485@qtp-22418487-6] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported
+2014-08-05 16:42:13 [18771485@qtp-22418487-6] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported
+2014-08-05 16:42:39 [18771485@qtp-22418487-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+2014-08-05 16:42:39 [18771485@qtp-22418487-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'address_name' cannot be null
+2014-08-05 16:46:50 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 16:48:03 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-05 16:51:48 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.

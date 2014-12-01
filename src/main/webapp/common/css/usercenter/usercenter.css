@@ -1,0 +1,95 @@
+
+
+
+
+
+
+.tab1{width:100%;margin:50px auto 0 auto;color:#333}
+.selectmenu{height:28px;}
+.selectmenu li{float:left;width:25%;text-align:center;line-height:28px;height:28px;cursor:pointer;color:#666;font-size:14px;overflow:hidden;background:#E0E2EB;}
+.selectmenu li.off{background:#FFFFFF;color:#336699;font-weight:bold;}
+.selectmenudiv{height:auto; min-height:550px; _height:550px;background:#fefefe}
+.selectmenudiv div{line-height:28px;}
+
+
+
+div.personnalitem{
+	width:100%;height:65px;margin:3px;background-color:#F3F3F3
+	}
+div.personnalitemc{
+	width:100%;height:65px;margin:3px;background-color:#F3F3F3
+	}
+div.item_left{
+	width:30%;height:100%;float:left
+	}
+	
+div.item_right{
+	width:70%;height:100%;float:left
+	}
+	
+div.order_item{
+	width:100%;height:90px;background-color:#F3F3F3;margin:3px
+	}
+
+div.order_item_span1{
+	width:50% ;height:30px;float:left
+	}
+
+div.order_item_span2{
+	width:33% ;height:30px;float:left
+	}
+
+div.address_item{
+	width:100%;height:30px;margin:3px;background-color:#F3F3F3;font-size:small
+	}	
+div.address_item_span1{
+	width:10%;height:100%;float:left
+	}
+div.address_item_span2{
+	width:23%;height:100%;float:left
+	}
+	
+div.address_item_span3{
+	width:33%;height:100%;float:left
+	}
+div.address_item_span4{
+	width:20%;height:100%;float:left
+	}
+div.address_item_span5{
+	width:14%;height:100%;float:left
+	}
+	
+	
+div.order_item2{
+	width:100%;background-color:#FAFAFA;margin:3px;min-height:90px; _height:90px;
+	}
+
+
+
+
+
+div.item_img{
+	width:34%;height:100% ;float:left;
+	}
+
+div.item_info{
+	width:33%;height:100%;float:left;
+	}
+
+div.item_po{
+	
+	width:100%;height:35%
+	}
+
+div.item_amt{
+	width:33%;height:100%;float:left;
+	}
+
+div.item_price{
+	
+	width:100%;height:50%
+	}		
+	
+
+	
+	

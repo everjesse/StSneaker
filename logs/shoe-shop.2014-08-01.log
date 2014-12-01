@@ -1,0 +1,56 @@
+2014-08-01 09:05:56 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 09:10:58 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 09:17:50 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 09:44:55 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 09:44:57 [main] ERROR o.s.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productDao': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page cn.edu.uestc.shoe.shop.repository.ProductDao.findByProductNameLike(java.lang.String)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1512) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479) ~[spring-context-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410) ~[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306) ~[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:549) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50) [jetty-util-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.Server.doStart(Server.java:224) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50) [jetty-util-6.1.26.jar:6.1.26]
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97) [run-jetty-run-bootstrap.jar:na]
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page cn.edu.uestc.shoe.shop.repository.ProductDao.findByProductNameLike(java.lang.String)
+	at org.springframework.util.Assert.isTrue(Assert.java:65) ~[spring-core-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.data.repository.query.QueryMethod.<init>(QueryMethod.java:79) ~[spring-data-commons-1.8.0.RELEASE.jar:na]
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:83) ~[spring-data-jpa-1.6.0.RELEASE.jar:na]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:69) ~[spring-data-jpa-1.6.0.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:320) ~[spring-data-commons-1.8.0.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:169) ~[spring-data-commons-1.8.0.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:224) ~[spring-data-commons-1.8.0.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:210) ~[spring-data-commons-1.8.0.RELEASE.jar:na]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:92) ~[spring-data-jpa-1.6.0.RELEASE.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509) ~[spring-beans-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	... 22 common frames omitted
+2014-08-01 09:50:13 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 10:10:09 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 10:10:41 [20753505@qtp-4798195-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+2014-08-01 10:10:41 [20753505@qtp-4798195-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'use_user_id' cannot be null
+2014-08-01 13:04:24 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 13:16:59 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 15:26:30 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 15:27:30 [24608404@qtp-4798195-2] WARN  o.s.web.servlet.PageNotFound - Request method 'GET' not supported
+2014-08-01 15:28:12 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 15:30:11 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 15:30:59 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 15:44:24 [main] WARN  o.hibernate.ejb.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2014-08-01 15:54:28 [18897729@qtp-31253613-12] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported
+2014-08-01 15:54:38 [18897729@qtp-31253613-12] WARN  o.s.web.servlet.PageNotFound - Request method 'POST' not supported

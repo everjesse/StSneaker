@@ -1,0 +1,39 @@
+xv c \ \vxc x x@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+html{font-family: "宋体";}
+body{background:url(../../img/login/test2.jpg);background-repeat:no-repeat;background-position:50% 50%; background-size:auto;}
+.head{padding:30px 0 56px 0 ;margin:0 auto;width:960px;height:42px;}
+.head img{float:left;width:330px;height: 42px;}
+#Form {font-size:12px;}
+.all{padding:20px 80px 15px 15px;width:865px; height:414px;color:#b0b0b0;margin:0 auto; }
+.all .pic {color:#b0b0b0; width:480px; margin-top:13px; height:384px;float:left;}
+.all .pic img {width:480px;height:384px; margin:auto,0px;}
+.infor {width:311px; float:right;background-color:rgba(0,0,0,0.5);padding:10px; border-radius:7px;font-family:"Microsoft Yahei";}
+.infor .usernameDiv,.infor .passwordDiv{height:28px;border:1px solid #C7C6C6;width:309px;}
+.infor .passwordDiv{margin-top:24px;}
+.infor .title{height:46px;font:normal 14px/46px "Microsoft Yahei";color: #fff;font-size:16px; }
+.infor .usernameDiv input,.infor .passwordDiv input{
+	float: left;
+	height: 18px;
+	padding: 5px 0;
+	border: 0;
+	color: #000;
+	width: 281px;
+	outline: none;
+}
+.infor .Replace{float:left;font-size:13px;height:21px;line-height: 21px;cursor:text;margin-top: -23px;color:#B0B0B0;margin-left:28px;}
+.infor .smallimg{width:28px; height: 28px;float: left;}
+.infor .usernameDiv span{color:#FF0000;}
+.infor .passwordDiv span{background-position: 0 -28px; color:#FF0000;}
+.tips{ine-height:24px; height:24px;}
+.autoLogin{width: 310px;height: 22px;line-height: 22px;margin-left:-3px;	padding-top: 10px;overflow: hidden;
+}
+.autoLogin input{vertical-align: middle;margin-top:-1px;margin-left: 1px;}
+.autoLogin a{float:right;}
+.safe{display:none;}
+.register{height:24px;line-height: 24px;padding-top:10px;}
+.register span{float: right;margin-right: 10px;}
+.register .registerBtn{float:right;width:61px;height:23px;background: url("");color:#666;text-align: center;text-decoration: none;line-height: 23px;}
+#loginsubmit{background-image:url(../../img/login/login.jpg); width:307px; height:34px; outline:none;border:0px;border-radius:4px;font-family:"Microsoft Yahei";}
+</style>

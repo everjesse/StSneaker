@@ -1,0 +1,405 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>用户中心</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="css/megamenu.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="css/usercenter.css"  />
+<!-- start menu
+<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'> 
+-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/usercenterreset.js"></script>
+<script type="text/javascript" src="js/jsAddress.js"></script>
+<script type="text/javascript" src="js/usercenter.js"></script>
+<script type="text/javascript" src="js/jquery1.min.js"></script>
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<!-- dropdown -->
+<script type="text/javascript" src="js/jquery.easydropdown.js"></script>
+</head>
+<body>
+       <div class="header-top">
+			<div class="wrap"> 
+			  <div class="header-top-left">
+   				    <div class="clear"></div>
+   			 </div>
+			 <div class="cssmenu">
+				<ul>
+					<li class="active"><a href="login.html">用户中心</a></li> |
+					<li><a href="checkout.html">购物车</a></li> |
+					<li><a href="login.html">[登录]</a></li> |
+				    <li><a href="register.html">[免费注册]</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+ 		</div>
+	</div>
+	 <div class="header-bottom">
+	    <div class="wrap">
+			<div class="header-bottom-left">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""/></a>
+				</div>
+				<div class="menu">
+	            <ul class="megamenu skyblue">
+			<li class="active grid"><a href="index.html">首页</a></li>
+			<li><a class="color4" href="#">类别</a>
+				<div class="megapanel">
+					<div class="row">
+						<div class="col1">
+							<div class="h_nav">
+								<h4>篮球鞋</h4>
+								<ul>
+									<li><a href="womens.html">篮球鞋</a></li>
+									
+								</ul>	
+							</div>							
+						</div>
+						<div class="col1">
+							<div class="h_nav">
+								<h4>足球鞋</h4>
+								<ul>
+									<li><a href="womens.html">男款</a></li>
+									<li><a href="womens.html">女款</a></li>
+									<li><a href="womens.html">钉鞋</a></li>
+									
+								</ul>	
+							</div>							
+						</div>
+						<div class="col1">
+							<div class="h_nav">
+								<h4>休闲鞋</h4>
+								<ul>
+									<li><a href="womens.html">帆布鞋</a></li> 
+									<li><a href="womens.html">板鞋</a></li>
+									<li><a href="womens.html">跑鞋</a></li>
+									<li><a href="womens.html">户外</a></li>
+									
+								</ul>	
+							</div>												
+						</div>
+					  </div>
+					</div>
+				</li>				
+				<li><a class="color5" href="#">品牌</a>
+				<div class="megapanel">
+					<div class="col1">
+							<div class="h_nav">
+								<h4>Adidas</h4>
+								<ul>
+									<li><a href="mens.html">Adidas</a></li>
+									<li><a href="mens.html">NEO</a></li>
+									<li><a href="mens.html">Originals </a></li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col1">
+							<div class="h_nav">
+								<h4>Nike</h4>
+								<ul>
+                                    <li><a href="mens.html">篮球系列</a></li>
+									<li><a href="mens.html">足球系列</a></li>
+									<li><a href="mens.html">网球系列</a></li>
+									<li><a href="mens.html">跑步系列</a></li>
+									
+								</ul>	
+							</div>							
+						</div>
+						<div class="col1">
+							<div class="h_nav">
+								<h4>Air Jordan</h4>
+								<ul>
+									<li><a href="mens.html">Air Jordan 篮球鞋系列</a></li>
+									
+								</ul>	
+							</div>												
+						</div>
+					</div>
+				</li>
+				
+				<li><a class="color7" href="other.html">所有商品</a></li>
+			</ul>
+			</div>
+		</div>
+	   <div class="header-bottom-right">
+         <div class="search">	  
+				<input type="text" name="s" class="textbox" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+				<input type="submit" value="Subscribe" id="submit" name="submit">
+				<div id="response"> </div>
+		 </div>
+	   </div>
+     <div class="clear"></div>
+     </div>
+	</div>
+  
+  
+  
+  
+  
+<div style="width:100%;height:auto" align="center">
+	<div style="width:80%; height:auto">
+		<div class="tab1" >
+            <div class="selectmenu">
+                <ul id="tab1">
+                    <li id="one1" onclick="setTab('one',1)">个人资料</li>
+                    <li id="one2" onclick="setTab('one',2)">我的订单</li>
+                    <li id="one3" onclick="setTab('one',3)">地址管理</li>
+                    <li id="one4" onclick="setTab('one',4)">关于我们</li>
+                </ul>
+            </div>
+            <div class="selectmenudiv">
+                <div id="con_one_1" >
+                    <div class="personnalitem" align="center">
+                         <div style="width:100%;height:30%"></div>
+                         <div class="item_left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户ID&nbsp;&nbsp;：</div>
+                         <div class="item_right" align="left">
+                              <div>1627245728847378247</div>
+                         </div>
+                    </div>
+                    
+                    <div class="personnalitem" align="center">
+                         <div style="width:100%;height:30%"></div>
+                         <div class="item_left" >&nbsp;&nbsp;&nbsp;&nbsp;绑定邮箱&nbsp;&nbsp;：</div>
+                         <div class="item_right" align="left">
+                              <div>22277233278@qq.com</div>
+                         </div>
+                    </div>
+                    
+                    <div class="personnalitem" >
+                          <div style="width:30%;height:65px;float:left;text-align:center;color:#46468E;font-weight:bolder" >修改密码</div>
+                          <div class="item_right"><p></p></div>
+                    </div>      
+                    <div class="personnalitem" align="center">
+                       <form id="resetform" method="POST" action="">
+                         <div class="item_left" >&nbsp;&nbsp;&nbsp;&nbsp;原密码&nbsp;&nbsp;：</div>
+                         <div class="item_right" align="left">
+                              <div >
+                                    <input type="password" id="oldpassword" name="oldpassword" tabindex="1" value="">
+                              </div>
+                         </div>     
+                    </div>
+                    <div class="personnalitem" align="center">
+                         <div style="width:100%;height:30%"></div>
+                         <div class="item_left" >&nbsp;&nbsp;&nbsp;&nbsp;新密码&nbsp;&nbsp;：</div>
+                         <div class="item_right" align="left" >
+                              <div >
+                                   <div style="float:left"><input type="password" id="newpassword" name="newpassword" tabindex="2" value=""> </div>
+                                   <div id="newtext" style="float:left;font-size:smaller"></div> 
+                              </div>
+                         </div>     
+                    </div>
+                    
+                    <div class="personnalitem" align="center">
+                         <div class="item_left" >&nbsp;&nbsp;&nbsp;&nbsp;确认密码&nbsp;&nbsp;：</div>
+                         <div class="item_right" align="left">
+                              <div >
+                                    <div style="float:left"><input type="password" id="acknewpassword" name="acknewpassword" tabindex="3" value=""></div>
+                                    <div id="acktext" style="float:left;font-size:smaller"></div>
+                              </div>
+                         </div>     
+                    </div>
+                    
+                    <div class="personnalitem" align="center">
+                         <div class="item_left"></div>
+                         <div class="item_right" align="left">
+                              <div style="width:100%;height:7%"></div>
+                              <div><input type="submit" id="newpasswordsubmit" name="newpasswordsubmit"tabindex="4" style="width:160px;height:30px;background-color:#4cb1ca;border:none">
+                              </div>
+                         </div>     
+                    </div> 
+                    </form> 
+                </div>
+                
+                <div id="con_one_2" style="display:none">
+                     <div class="order_item" align="center">
+                          
+                          <div class="order_item_span1" align="left"><div>&nbsp;&nbsp;NO.27838932</div></div>
+                          <div class="order_item_span1" align="right"><div>2014/8/2&nbsp;&nbsp;</div></div>
+                      
+                          <div class="order_item_span2" align="left"><div>&nbsp;&nbsp;收件人：季江舟</div></div>
+                          <div class="order_item_span2" align="center"><div>货到付款</div></div>
+                          <div class="order_item_span2" align="right"><div>正在派送&nbsp;&nbsp;</div></div>
+                       
+                          <div class="order_item_span2" align="left"><div>&nbsp;&nbsp;总金额：2000$</div></div>
+                          <div class="order_item_span2" align="center"><div>收货地址：四川省成都市成华区&nbsp;&nbsp;</div></div>
+                          <div class="order_item_span2" align="right"><div><a href="#" style="color:#90F">删除&nbsp;&nbsp;</a></div></div>
+                     </div>
+                </div>
+                
+                <div id="con_one_3" style="display:none;">
+                     <!--  显示已有地址   -->
+                     <div class="address_item" align="center">           
+                          <div class="address_item_span1">收件人</div>
+                          <div class="address_item_span2">所在地区</div>
+                          <div class="address_item_span3">街道地址</div>
+                          <div class="address_item_span4">电话/手机</div>
+                          <div class="address_item_span5">操作</div>
+                     </div>               
+                
+                     <div class="address_item" align="center">           
+                          <div class="address_item_span1">季江舟</div>
+                          <div class="address_item_span2">四川省 成都市 成华区</div>
+                          <div class="address_item_span3">一环路东一段240号</div>
+                          <div class="address_item_span4">18888888888</div>
+                          <div class="address_item_span5"><a href="#" style="color:#90F">修改</a>/<a href="#" style="color:#90F">删除</a></div>
+                     </div> 
+                
+                
+                
+                     <div style="width:100%;height:360px;margin:3px;background-color:#F3F3F3;font-size:small" align="center">  
+                          <div style="width:100%;height:25px">
+                           <div style="width:20% ;height:100%;float:left;font-size:18px;font-weight:bold;color:#2D015C" align="center">添加地址</div>
+                           <div style="width:80% ;height:100%;float:left"><p></p></div>
+                          </div> 
+                           <form id="addressSetForm" method="POST" action="" >
+                                 <div style="width:20% ;height:40px;float:left" align="right">收件人姓名：</div>  
+                                 <div style="width:80% ;height:40px;float:left" align="left"><input type="text" name="recvname" tabindex="1" value=""></input></div>
+                                  
+                                 <div style="width:20% ;height:40px;float:left" align="right">电话/手机：</div>  
+                                 <div style="width:80% ;height:40px;float:left" align="left"><input type="text" name="phone" tabindex="2" value=""></input></div> 
+                                 
+                                 <div style="width:20% ;height:40px;float:left" align="right">邮编：</div>  
+                                 <div style="width:80% ;height:40px;float:left" align="left"><input type="text" name="postcode" tabindex="3" value=""></input></div> 
+                                 
+                                 <div style="width:20% ;height:40px;float:left" align="right">所在地区：</div>  
+                                 <div style="width:80% ;height:40px;float:left" align="left">
+                                                                                                    省：<select id="cmbProvince" name="province"  tabindex="4" onchange="document.getElementById('province').value=document.getElementById('cmbProvince').value"></select>  
+                                                                                                    市：<select id="cmbCity"     name="city"      tabindex="5" onchange="document.getElementById('city').value=document.getElementById('cmbCity').value"></select>
+                                                                                                    区：<select id="cmbArea"     name="distract"  tabindex="6" onchange="document.getElementById('district').value=document.getElementById('cmbArea').value"></select>
+                                         <input type="hidden" id="province" name="province" value="" ></input>
+                                         <input type="hidden" id="city" name="city" value="" ></input>
+                                         <input type="hidden" id="district" name="district" value="" ></input>
+                                            
+                                 </div>
+                                 <script type="text/javascript">
+	                                     addressInit('cmbProvince', 'cmbCity', 'cmbArea', '四川', '成都市', '成华区');
+	                                    // addressInit('Select1', 'Select2', 'Select3');
+                                 </script>
+                                 <div style="width:20% ;height:90px;float:left" align="right">详细地址：</div>  
+                                 <div style="width:80% ;height:90px;float:left" align="left"><textarea name="detail"  id="detail" tabindex="4"   cols="40" rows="4" onBlur="document.getElementById('detailarea').value=document.getElementById('detail').value"></textarea>
+                                 <input type="hidden" id="detailarea" name="detailarea" value=""></input></div>
+                                 
+                                 <div style="width:20% ;height:40px;float:left; vertical-align:middle" align="right">是否设为默认地址</div>  
+                                 <div style="width:80% ;height:40px;float:left; vertical-align:middle" align="left">
+                                 <div style="width:100%;height:7%"><p></p></div>
+                                  <input type="checkbox"  name="setdefaultAddress" value="true"  tabindex="7" ></input>
+                                  </div> 
+                                 
+                                 <div style="width:20% ;height:40px;float:left" align="right"><p></p></div>  
+                                 <div style="width:80% ;height:40px;float:left" align="left"><input type="submit" id="newaddresssubmit" name="newaddresssubmit" value="保存"tabindex="8" style="width:160px;height:30px;background-color:#4cb1ca;border:none"></input></div> 
+                           </form>  
+                     </div>
+                
+                
+                </div>
+                
+                <div id="con_one_4" style="display:none;">我的网站我做主</div>
+            </div>
+            
+    	</div>
+	</div>
+</div>      
+             
+        
+        
+     
+     
+     
+        
+
+        
+    <div class="footer">
+		
+		 <div style="width:100%;height:80px;background-color:#4cb1ca"></div>
+		<div class="footer-top"></div>
+		<div class="footer-middle">
+			<div class="wrap">
+			 <div class="section group example">
+			  <div class="col_1_of_f_1 span_1_of_f_1">
+				 <div class="section group example">
+				   <div class="col_1_of_f_2 span_1_of_f_2">
+			          <blockquote>
+			             <h3>购物指南</h3>
+                          <ul>
+				           <li><a href="#"  style="color:#FFF">*新用户注册</a></li>
+				           <li><a href="#"  style="color:#FFF">*会员登录</a></li>
+				           <li><a href="#"  style="color:#FFF">*交易须知</a></li>
+                           <li><a href="#"  style="color:#FFF">*联系客服</a></li>
+			             </ul>
+		             </blockquote>
+						
+						
+ 				  </div>
+				  <div class="col_1_of_f_2 span_1_of_f_2">
+						<blockquote>
+						  <h3>付款方式</h3>
+                          <ul>
+				           <li><a href="#"  style="color:#FFF">*支付方式</a></li>
+				           <li><a href="#"  style="color:#FFF">*常见支付问题</a></li>
+				           <li><a href="#"  style="color:#FFF">*如何办理退款</a></li>
+			             </ul>
+				       </blockquote>
+				       <div class="recent-tweet">
+				         <div class="clear"> </div>
+					   </div>
+					   <div class="recent-tweet">
+					     <div class="clear"> </div>
+					  </div>
+				</div>
+				<div class="clear"></div>
+		      </div>
+ 			 </div>
+			 <div class="col_1_of_f_1 span_1_of_f_1">
+			   <div class="section group example">
+				 <div class="col_1_of_f_2 span_1_of_f_2" >
+				    <blockquote>
+				      <h3>配送方式</h3>
+				      <ul>
+				        <li><a href="#"  style="color:#FFF">*配送时间和配送范围</a></li>
+				        <li><a href="#"  style="color:#FFF">*商品验货</a></li>
+				        
+			          </ul>
+			       </blockquote>
+				 </div>
+				 <div class="col_1_of_f_2 span_1_of_f_2">
+		           <blockquote>
+		             <h3>售后服务</h3>
+                     <ul>
+				        <li><a href="#"  style="color:#FFF">*退换货办理流程</a></li>
+				        <li><a href="#"  style="color:#FFF">*退换货政策</a></li>
+				        
+			          </ul>
+		           </blockquote>
+						
+					   
+				</div>
+				<div class="clear"></div>
+		    </div>
+		   </div>
+		  <div class="clear"></div>
+		    </div>
+		  </div>
+		</div>
+		<div class="footer-bottom">
+			<div class="wrap">
+	            <div class="copy">
+			           <p>Copyright &copy; 2014. BoShoe All rights reserved.</p>
+		        </div>
+			  <div class="f-list2">
+				<ul>
+					<li class="active"><a href="about.html">关于我们</a></li> |
+					<li><a href="delivery.html">联系我们</a></li> |
+					<li><a href="delivery.html">友情链接</a></li> |
+					<li><a href="contact.html">加入我们</a></li> 
+				</ul>
+			  </div>
+				<div class="clear"></div>
+		      </div>
+			</div>
+		</div>
+</body>
+</html>
